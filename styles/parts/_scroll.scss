@@ -1,0 +1,36 @@
+.animation-under{
+    opacity: 0;
+    transform: translateY(20%);
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+
+    &.active-under {
+        opacity: 1;
+        transform: inherit;
+    }
+}
+
+
+.animation-left{
+    opacity: 0;
+    transform: translateX(-20%);
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+
+    &.active-left {
+        opacity: 1;
+        transform: inherit;
+    }
+}
+
+.animation-right{
+    opacity: 0;
+    transform: translateX(20%);
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+
+    &.active-right {
+        opacity: 1;
+        transform: inherit;
+    }
+}
+
+
+
